@@ -104,7 +104,7 @@ export default function Hero() {
                 Contact
               </a>
               <a
-                href="/konstantinos_manolis_cv.pdf"
+                href="/CV_Konstantinos_Manolis.pdf"
                 download
                 className="inline-flex items-center gap-2 px-5 py-2.5 border border-[#1e293b] hover:border-[#334155] text-[#94a3b8] hover:text-[#f1f5f9] text-sm font-medium rounded-lg transition-all duration-200 hover:bg-white/5"
               >
