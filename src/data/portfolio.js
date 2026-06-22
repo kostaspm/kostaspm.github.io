@@ -5,6 +5,7 @@ export const personal = {
   email: 'konstantinos.manolis@gmail.com',
   linkedin: 'https://www.linkedin.com/in/manolis-konstantinos/',
   github: 'https://github.com/kostaspm',
+  fiverr: 'https://www.fiverr.com/kostaspm97',
   location: 'Greece',
   available: true,
 };

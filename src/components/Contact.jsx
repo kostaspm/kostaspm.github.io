@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { Mail, MapPin } from 'lucide-react';
-import { LinkedinIcon, GithubIcon } from './BrandIcons';
+import { LinkedinIcon, GithubIcon, FiverrIcon } from './BrandIcons';
 import { useInView } from '../hooks/useInView';
 import { personal } from '../data/portfolio';
 
@@ -23,6 +23,12 @@ const links = [
     icon: Mail,
     description: personal.email,
   },
+  {
+    label: 'Fiverr',
+    href: personal.fiverr,
+    icon: FiverrIcon,
+    description: 'Hire me for freelance work',
+  }
 ];
 
 export default function Contact() {
@@ -45,7 +51,7 @@ export default function Contact() {
               Let&apos;s work together
             </h2>
             <p className="text-[#94a3b8] leading-relaxed">
-              I&apos;m open to   engineering roles, consulting engagements, and
+              I&apos;m open to senior software engineering roles, consulting engagements, and
               freelance projects in enterprise software, fintech, or SaaS.
               Feel free to reach out.
             </p>
